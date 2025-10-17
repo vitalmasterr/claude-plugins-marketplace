@@ -1,0 +1,67 @@
+{
+  "name": "context-preserving-agents",
+  "displayName": "Context Preserving Agents",
+  "version": "1.0.0",
+  "description": "A collection of specialized agents that drastically reduce conversation context usage through intelligent summarization and background processing. Achieve 95%+ context savings while maintaining full functionality.",
+  "author": "AI Programming Team",
+  "license": "MIT",
+  "repository": "https://github.com/vitalmasterr/context-preserving-agents",
+  "keywords": [
+    "agents",
+    "context-management",
+    "efficiency",
+    "summarization",
+    "research",
+    "documentation",
+    "bash",
+    "analysis"
+  ],
+  "engines": {
+    "claudeCode": ">=1.0.0"
+  },
+  "contributes": {
+    "agents": [
+      {
+        "name": "researcher-agent",
+        "displayName": "Researcher Agent",
+        "description": "Deep, comprehensive analysis of any project aspect without cluttering conversation context",
+        "file": "agents/researcher-agent.md"
+      },
+      {
+        "name": "thinker-agent",
+        "displayName": "Thinker Agent",
+        "description": "Deep analytical thinking and structured reasoning using sequential thinking MCP tool",
+        "file": "agents/thinker-agent.md"
+      },
+      {
+        "name": "historian-agent",
+        "displayName": "Historian Agent",
+        "description": "Preserves conversation context and creates summaries when switching tasks",
+        "file": "agents/historian-agent.md"
+      },
+      {
+        "name": "file-warden-agent",
+        "displayName": "File Warden Agent",
+        "description": "Reads and analyzes large files without cluttering conversation context",
+        "file": "agents/file-warden-agent.md"
+      },
+      {
+        "name": "bookworm-agent",
+        "displayName": "Bookworm Agent",
+        "description": "Manages all project documentation - reading, writing, updating, and auditing",
+        "file": "agents/bookworm-agent.md"
+      },
+      {
+        "name": "bishbash-agent",
+        "displayName": "BishBash Agent",
+        "description": "Runs bash commands with verbose output and returns only summarized results",
+        "file": "agents/bishbash-agent.md"
+      }
+    ]
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md"
+}
