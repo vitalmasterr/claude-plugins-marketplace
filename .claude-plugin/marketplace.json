@@ -1,0 +1,16 @@
+{
+  "name": "vitalmasterr-plugins",
+  "owner": {
+    "name": "vitalmasterr",
+    "url": "https://github.com/vitalmasterr"
+  },
+  "plugins": [
+    {
+      "name": "context-preserving-agents",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/vitalmasterr/context-preserving-agents.git"
+      }
+    }
+  ]
+}
