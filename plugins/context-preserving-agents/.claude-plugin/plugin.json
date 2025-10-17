@@ -17,6 +17,12 @@
     "bash",
     "analysis"
   ],
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    }
+  },
   "agents": [
     "./agents/researcher-agent.md",
     "./agents/thinker-agent.md",
