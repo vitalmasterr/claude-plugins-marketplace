@@ -7,10 +7,7 @@
   "plugins": [
     {
       "name": "context-preserving-agents",
-      "source": {
-        "source": "github",
-        "repo": "vitalmasterr/context-preserving-agents"
-      }
+      "source": "./plugins/context-preserving-agents"
     }
   ]
 }
